@@ -18,7 +18,7 @@ export default function BigNew({ noticia }: Props) {
           priority
         />
       </div>
-      <div className="px-6 py-4 h-60 flex flex-col justify-around">
+      <div className="px-6 py-4 h-60 flex flex-col">
         <div>
           <div className="flex flex-wrap gap-2 mb-3">
             <time className="text-xs text-gray-400 ml-auto">

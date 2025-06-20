@@ -41,7 +41,7 @@ const noticias: Noticia[] = [
 export default function LL_home() {
   return (
     <section className="mx-auto px-8 py-12 bg-white">
-      <div className="max-w-7xl">
+      <div className="max-w-7xl mx-auto">
         <SectionTitle title="Laguna Larga" />
         <div className="flex flex-col md:flex-row gap-8">
           <BigNew noticia={noticias[0]} />

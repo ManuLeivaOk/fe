@@ -42,7 +42,7 @@ const noticias: Noticia[] = [
 export default function Oliva_Home() {
   return (
     <section className="mx-auto px-8 py-12">
-      <div className="max-w-7xl">
+      <div className="max-w-7xl mx-auto">
         <SectionTitle title="Oliva" />
         <div className="flex flex-col md:flex-row gap-8">
           {/* Noticia grande */}

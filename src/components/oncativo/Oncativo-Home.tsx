@@ -41,7 +41,7 @@ const noticias: Noticia[] = [
 export default function Oncativo_home() {
   return (
     <section className="mx-auto px-8 py-12 bg-white">
-      <div className="max-w-7xl">
+      <div className="max-w-7xl mx-auto">
         <SectionTitle title="Oncativo" />
         <div className="flex flex-col md:flex-row gap-8">
           <div className="md:w-1/2 flex flex-col gap-6">

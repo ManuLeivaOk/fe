@@ -21,7 +21,7 @@ export default function SmallNew({ noticia }: Props) {
           priority={false}
         />
       </div>
-      <div className="p-3 flex flex-col md:justify-between w-2/3">
+      <div className="p-3 flex flex-col w-2/3">
         <time className="text-xs text-gray-400 ml-auto">{noticia.date}</time>
         <div className="mt-3 md:mt-0">
           <h4
