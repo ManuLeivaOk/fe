@@ -15,22 +15,22 @@ export default function SmallNew({ noticia }: Props) {
       <div className="relative w-1/3 h-full min-h-full">
         <Image
           src="/img.avif"
-          alt={noticia.title}
+          alt={noticia.titulo}
           fill
           className="object-cover"
           priority={false}
         />
       </div>
       <div className="p-3 flex flex-col w-2/3">
-        <time className="text-xs text-gray-400 ml-auto">{noticia.date}</time>
+        <time className="text-xs text-gray-400 ml-auto">{noticia.fechaPublicacion}</time>
         <div className="mt-3 mb:mt-0">
           <h4
             className={`text-sm text-gray-900 dark:text-white mb-1 line-clamp-2 ${raleway.className} uppercase font-bold tracking-wide`}
           >
-            {noticia.title}
+            {noticia.titulo}
           </h4>
           <p className="text-gray-700 dark:text-gray-300 text-xs line-clamp-2">
-            {noticia.summary}
+            {noticia.subtitulo}
           </p>
         </div>
 

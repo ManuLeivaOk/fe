@@ -12,7 +12,7 @@ export default function BigNew({ noticia }: Props) {
       <div className="relative w-full h-72">
         <Image
           src="/img.avif"
-          alt={noticia.title}
+          alt={noticia.titulo}
           fill
           className="object-cover"
           priority
@@ -22,16 +22,16 @@ export default function BigNew({ noticia }: Props) {
         <div>
           <div className="flex flex-wrap gap-2 mb-3">
             <time className="text-xs text-gray-400 ml-auto">
-              {noticia.date}
+              {noticia.fechaPublicacion}
             </time>
           </div>
 
           <h3
             className={`text-2xl font-semibold mb-2 text-gray-900 dark:text-white ${raleway.className} uppercase tracking-wide`}
           >
-            {noticia.title}
+            {noticia.titulo}
           </h3>
-          <p className="text-gray-700 dark:text-gray-300">{noticia.summary}</p>
+          <p className="text-gray-700 dark:text-gray-300">{noticia.subtitulo}</p>
         </div>
 {/*         <div>
           {noticia.tags.map((tag, i) => (
